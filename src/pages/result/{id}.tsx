@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useLocation, useParams } from "react-router-dom";
 import axios from "axios";
-import { Box, Container, Flex, Heading, Image, Skeleton, SkeletonText, Stack, Text } from "@chakra-ui/react";
+import { Box, Container, Flex, Heading, Skeleton, Stack, Text } from "@chakra-ui/react";
 
 function ResultDetails() {
   const { state } = useLocation();
